@@ -1,22 +1,21 @@
 #  Hotel Performance Dashboard - Excel Project
 
 ## Domain: Hospitality
+##  Project Overview
+This project analyzes hotel booking data and presents insights through an interactive Excel dashboard.  
+The dashboard includes KPIs, slicers, pivot tables, and visualizations to help understand revenue trends, guest behavior, and booking patterns.
 
 ---
-
-## Dataset Description
-Three related datasets were simulated for this project:
-
-### 1. Bookings.csv
-- BookingID, GuestID, RoomID, CheckInDate, CheckOutDate,
-  TotalAmount, BookingChannel, BookingStatus
-
-### 2. Guests.csv
-- GuestID, GuestName, Gender, Country
-
-### 3. Rooms.csv
-- RoomID, RoomType (Deluxe/Standard/Suite),
-  FloorNumber, PricePerNight
+##  Dataset Description
+- **Domain:** Hospitality / Hotel Analytics  
+- **Data Type:** Simulated hotel booking dataset  
+- **Contains:**  
+  - Guest information  
+  - Room types  
+  - Booking channels  
+  - Check‑in dates  
+  - Revenue  
+  - Nights stayed  
 
 > Datasets are linked by GuestID and RoomID as key columns.
 
@@ -38,12 +37,12 @@ Three related datasets were simulated for this project:
   - Bookings[RoomID] → Rooms[RoomID]
 
 ### 3. DAX Measures Created
-- **Total Revenue (AED)** = AED 532,350.00
-- **Total Reservations** = 95
-- **Avg Revenue per Booking** = AED 5,603.68
-- **Room Nights Sold** = 279
-- **Avg Length of Stay** = 3 nights
-- **Avg Daily Rate (ADR)** = AED 1,908.06
+- **Total Revenue (AED)**
+- **Total Reservations** 
+- **Avg Revenue per Booking**
+- **Room Nights Sold** 
+- **Avg Length of Stay** 
+- **Avg Daily Rate (ADR)** 
 
 ### 4. Dashboard Features
 ####  Charts & Visuals:
@@ -62,7 +61,13 @@ Three related datasets were simulated for this project:
 - CheckIn Date by Month (Jan / Feb / Mar)
 - Country filter
 
----
+## 📈 Key Performance Indicators (KPIs)
+- **Total Revenue (AED):** Total money earned from bookings  
+- **Total Bookings:** Number of reservations  
+- **Avg Booking Value:** Average revenue per booking  
+- **Total Room Nights:** Total nights stayed by guests  
+- **Avg Stay Days:** Average length of stay  
+- **Revenue per Night:** Revenue earned per occupied night  
 
 ## How to View the Dashboard
 1. Open Hospitality_Dashboard.xlsx
@@ -81,9 +86,10 @@ Three related datasets were simulated for this project:
 - `Bookings.csv` - Raw bookings data
 - `Guests.csv` - Guest information
 - `Rooms.csv` - Room details
+-  screenshot  - dashboard
 - `README.md` - Project documentation
 
 ---
 
-##  Name: Ajimol Shaheer
-## GitHub: https://github.com/AjimolAli/hospitality-dashboard-project
+##  Created By: Ajimol Shaheer
+## GitHub: https://github.com/AjimolShaheer/hospitality-dashboard-project
