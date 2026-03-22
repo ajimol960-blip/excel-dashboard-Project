@@ -45,23 +45,14 @@ The dashboard includes KPIs, slicers, pivot tables, and visualizations to help u
 - **Avg Daily Rate (ADR)** 
 
 ### 4. Dashboard Features
-####  Charts & Visuals:
-- Revenue by Country (Bar Chart)
-  → Top countries: USA, UK, Germany, Canada, Australia
-- Monthly Revenue Trend (Line Chart)
-  → Jan: 214,000 | Feb: 149,550 | Mar: 168,800
-- Revenue by Channel (Donut Chart)
-  → TravelAgent: 55% | Walk-in: 12% | Website: 33%
-- Revenue by Room Type (Donut Chart)
-  → Deluxe: 65% | Standard: 12% | Suite: 23%
+Dashboard Creation
+- Designed an interactive dashboard with:
+  - KPI cards  
+  - Slicers (Room Type, Booking Channel, Month, Country)  
+  - Bar charts, line charts, and pie charts  
+  - Clean layout and consistent formatting  
 
-####  Interactive Slicers:
-- Room Type (Deluxe / Standard / Suite)
-- Booking Channel (TravelAgent / Walk-in / Website)
-- CheckIn Date by Month (Jan / Feb / Mar)
-- Country filter
-
-## 📈 Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 - **Total Revenue (AED):** Total money earned from bookings  
 - **Total Bookings:** Number of reservations  
 - **Avg Booking Value:** Average revenue per booking  
