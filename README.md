@@ -73,7 +73,7 @@ Dashboard Creation
 ---
 
 ## Repository Contents
-- `Hospitality_Dashboard.xlsx - Main Excel workbook
+- Hospitality_Dashboard.xlsx - Main Excel workbook
 - `Bookings.csv` - Raw bookings data
 - `Guests.csv` - Guest information
 - `Rooms.csv` - Room details
@@ -83,4 +83,5 @@ Dashboard Creation
 ---
 
 ##  Created By: Ajimol Shaheer
+               https://github.com/ajimol960-blip/excel-dashboard-Project.git
 
